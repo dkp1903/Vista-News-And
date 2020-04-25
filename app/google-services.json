@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "693537778893",
+    "firebase_url": "https://vista-news.firebaseio.com",
+    "project_id": "vista-news",
+    "storage_bucket": "vista-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693537778893:android:d7c27dad28e8abeb014d84",
+        "android_client_info": {
+          "package_name": "com.example.abhishek.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693537778893-e95scf17rodt1enadc05dmutnmpf94oe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishek.newsapp",
+            "certificate_hash": "db173cba93095f679e9b90038044b07828b2c746"
+          }
+        },
+        {
+          "client_id": "693537778893-8nv9ls4cc1sra5282ei3k8qtt4rdnkvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAblU4BdDBaiqz4DJ8y1fwnLgFVHwqLHfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693537778893-8nv9ls4cc1sra5282ei3k8qtt4rdnkvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
