@@ -8,6 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -126,11 +127,11 @@ public class DetailActivity extends AppCompatActivity {
         binding.btnReadFull.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(article.getUrl()));
-                startActivity(intent);
-                //Intent intent = new Intent(DetailActivity.this, WebViewActivity.class );
-                //intent.putExtra("URL",Uri.parse(article.getUrl()) );
+                //Uncomment if you want to redirect to browser
+                //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(article.getUrl()));
+                //startActivity(intent);
+                Intent intent = new Intent(DetailActivity.this, WebViewActivity.class );
+                intent.putExtra("URL",(Uri.parse(article.getUrl())).toString() );
                 startActivity(intent);
             }
         });

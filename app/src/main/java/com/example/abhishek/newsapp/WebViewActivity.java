@@ -17,8 +17,8 @@ public class WebViewActivity extends AppCompatActivity {
         setContentView(R.layout.webview_fragment);
         String u = getIntent().getStringExtra("URL");
         webView = findViewById(R.id.webView);
-        webView.setWebViewClient(new WebViewClient());
+        //webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(u);
-        Log.d("URL", u);
+
     }
 }
