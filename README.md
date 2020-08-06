@@ -1,9 +1,6 @@
 #### Demo
 - ##### Home
-<img src="app.gif" width="40%">
-
-- ##### Widget
-<img src="widget.gif" width="40%">
+> Link to downlad : [Link](https://bit.ly/dkp-news-app)
 
 #### Libraries
 - [Google gson](https://github.com/google/gson) For parsing JSON data
